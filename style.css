@@ -70,19 +70,12 @@ h3 {
 p {
     font-size: 30px;
 }
-#tea {
-    font-size: 100px;
-}
-#walk {
-    font-size: 100px;
+#expand {
+    font-size: 200px;
 }
 
-#yoga {
-    font-size: 100px;
-}
-
-#bike {
-    font-size: 100px;
+code {
+    text-align: center;
 }
 
 #contact {
@@ -134,4 +127,37 @@ body {
     background-color: #124559;
     color: white;
     padding: 20px;
+}
+
+#todaysWeatherIcon {
+    font-size: 75px;
+    text-align: center;
+}
+
+#todaysTemp {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#todaysDetails {
+    font-size: 12px;
+}
+
+.day {
+    font-size: 16px;
+}
+.smallIcon {
+    font-size: 36px;
+}
+
+#weatherContainer {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 30px;
+    background: #eeebd3;
 }
