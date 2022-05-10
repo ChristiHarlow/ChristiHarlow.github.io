@@ -11,6 +11,12 @@ section#intro {
     animation: fadein ease-in 1s;
 }
 
+@media only screen and (max-width: 600px) {
+    #intro h1 {
+        font-size: 48px;
+    }
+}
+
 #intro h3 {
     margin-top: 20px;
     margin-bottom: 20px;
