@@ -3,24 +3,20 @@
 section#intro {
     background-color: #b36a5e;
     color: #eeebd3;
-    height: 50vh;
-}
-
-#intro h1 {
-    font-size: 60px;
-    animation: fadein ease-in 1s;
+    height: 60vh;
 }
 
 @media only screen and (max-width: 600px) {
     #intro h1 {
-        font-size: 48px;
+        font-size: 60px;
+        animation: fadein ease-in 1s;
     }
 }
 
 #intro h3 {
+    font-size: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
-
     opacity: 0;
     animation-name: fadein;
     animation-delay: 1s;
@@ -48,7 +44,7 @@ section#intro {
 }
 
 #intro #downArrow {
-    font-size: 75px;
+    font-size: 60px;
     position: absolute;
     bottom: 30px;
     color: #eeebd3;
