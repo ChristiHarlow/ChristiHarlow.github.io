@@ -7,7 +7,7 @@ section#intro {
 }
 
 #intro h1 {
-    font-size: 100px;
+    font-size: 60px;
     animation: fadein ease-in 1s;
 }
 
